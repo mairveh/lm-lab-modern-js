@@ -2,5 +2,5 @@
 
 export function sayHello(name) {
 
-  return 'Hello' + ((name===undefined)?(' you!'):(', '+name+'!'))
+  return name?`Hello ${name}!`:"Hello you!"
 }
